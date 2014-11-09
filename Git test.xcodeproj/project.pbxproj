@@ -21,6 +21,7 @@
 		D74398B11A0EF14F003CFC83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74398931A0EF14E003CFC83 /* UIKit.framework */; };
 		D74398B91A0EF14F003CFC83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D74398B71A0EF14F003CFC83 /* InfoPlist.strings */; };
 		D74398BB1A0EF14F003CFC83 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74398BA1A0EF14F003CFC83 /* Git_testTests.m */; };
+		D74398C61A0EF58D003CFC83 /* PSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D74398C51A0EF58D003CFC83 /* PSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D74398B61A0EF14F003CFC83 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		D74398B81A0EF14F003CFC83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D74398BA1A0EF14F003CFC83 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		D74398C41A0EF58D003CFC83 /* PSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSTest.h; path = ../PSTest.h; sourceTree = "<group>"; };
+		D74398C51A0EF58D003CFC83 /* PSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSTest.m; path = ../PSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		D74398951A0EF14E003CFC83 /* Git test */ = {
 			isa = PBXGroup;
 			children = (
+				D74398C41A0EF58D003CFC83 /* PSTest.h */,
+				D74398C51A0EF58D003CFC83 /* PSTest.m */,
 				D743989E1A0EF14E003CFC83 /* PSAppDelegate.h */,
 				D743989F1A0EF14E003CFC83 /* PSAppDelegate.m */,
 				D74398A11A0EF14E003CFC83 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 			files = (
 				D743989C1A0EF14E003CFC83 /* main.m in Sources */,
 				D74398A61A0EF14E003CFC83 /* PSViewController.m in Sources */,
+				D74398C61A0EF58D003CFC83 /* PSTest.m in Sources */,
 				D74398A01A0EF14E003CFC83 /* PSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
